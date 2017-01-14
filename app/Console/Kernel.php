@@ -24,8 +24,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-         $schedule->command('verify-site-migration-has-changed')
-                  ->everyFiveMinutes();
+//         $schedule->command('verify-site-migration-has-changed')
+//                  ->everyFiveMinutes();
     }
 
     /**
